@@ -12,7 +12,7 @@ import AddMovie from './components/AddMovie';
 import MovieDetails from './components/MovieDetails';
 
 const client = new ApolloClient({
-  uri: 'http://localhost:5000/graphql',
+  uri: 'https://apollo-graphql-engine.herokuapp.com/graphql',
 });
 function App() {
   const [selected, setSelected] = useState('0');
